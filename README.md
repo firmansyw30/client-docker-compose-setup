@@ -63,7 +63,7 @@ Also, this project is for my own documentation for client server setup (backend)
 ```
 
 ## Setting Up CertBot
-1. Make sure the DNS has been setup in route53 or any dns service
+1. Make sure the DNS has been setup for each service by using Route53 or any dns services
 2. Run the following command `docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certbot -d your-domain`
 
 ## 🤝 Contributing
@@ -77,5 +77,6 @@ For any questions or concerns, please contact us at [firmansyahwicaksono30@gmail
 
 ## 💖 Thanks Message
 Thank you for using our application. We hope you find it useful and efficient.
+
 
 
