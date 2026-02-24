@@ -29,7 +29,7 @@ Also, this project is for my own documentation for client server setup (backend)
 ### Installation
 1. Clone the repository to your local machine.
 2. Make sure the Amazon CLI and Amazon User is correctly configured in your local machine.
-3. Navigate to the clients directory and run `docker-compose up -d` to start the client services.
+3. Navigate to the clients directory. Make sure the environment variables is on the correct directory and then run `docker-compose up -d` to start the client services.
 4. Configure the Nginx configuration file to point to the correct upstream servers.
 5. Navigate to the proxy directory and run `docker-compose up -d` to start the proxy service.
 6. Configure the Promtail configuration file to point to the correct Loki API.
@@ -77,3 +77,4 @@ For any questions or concerns, please contact us at [firmansyahwicaksono30@gmail
 
 ## 💖 Thanks Message
 Thank you for using our application. We hope you find it useful and efficient.
+
