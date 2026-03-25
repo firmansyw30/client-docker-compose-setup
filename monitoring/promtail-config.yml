@@ -6,7 +6,7 @@ positions:
   filename: /tmp/positions.yaml
 
 clients:
-  - url: https://loki.mapid.io/loki/api/v1/push # Change this to your Loki URL
+  - url: https://<your-loki-URL>/loki/api/v1/push # Change this to your Loki URL
     # tenant_id: "your-tenant-id" # Uncomment if using multi-tenant Loki
 
 scrape_configs:
